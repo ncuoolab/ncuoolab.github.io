@@ -1,11 +1,70 @@
-<DOCTYPE public>
+<!DOCTYPE public>
 <html>
-<head>
-<title>NCU OOLab</title>
-</head>
-<body>
-<p>
-It works!
-</p>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <title>NCU OOLab</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" />
+        <link href="css/main.less" type="text/css" rel="stylesheet/less" />
+    </head>
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-inner">
+                        <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="brand" href="#">NCU OOLab</a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-slides" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img alt="" src="/img/slide-01.jpg" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>EPLIC</h1>
+                            <p class="lead">
+                                Code comprehension tool.
+                            </p>
+                            <a class="btn btn-large btn-primary" href="/EPLIC">More ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img alt="" src="/img/slide-02.jpg" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>xTitan</h1>
+                            <p class="lead">
+                                A capture/replay toolkit.
+                            </p>
+                            <a class="btn btn-large btn-primary" href="/xtitan">More ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a data-slide="prev" href="#project-slides" class="left carousel-control">‹</a>
+            <a data-slide="next" href="#project-slides" class="right carousel-control">›</a>
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.3.3/less.min.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
 </html>
+
+<!-- ex: ts=4 sts=4 sw=4 et -->
+<!-- sublime: tab_size 4; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true; -->

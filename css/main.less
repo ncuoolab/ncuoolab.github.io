@@ -1,0 +1,38 @@
+body {
+    padding-bottom: 40px;
+}
+
+.carousel {
+    .item {
+        height: 500px;
+
+        &> img {
+            height: 500px;
+            left: 0;
+            min-width: 100%;
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        padding: 0 20px;
+        max-width: 550px;
+        margin-top: 200px;
+
+        .lead {
+            line-height: 1.25;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// ex: ts=4 sts=4 sw=4 et
+// sublime: tab_size 4; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
